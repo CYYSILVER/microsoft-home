@@ -1,29 +1,39 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <router-link to="/"></router-link>
     <router-view />
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {}
+  }
+}
+</script>
 
 <style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+* {
+  margin: 0;
+  padding: 0;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+
+[debug],
+[debug] * {
+  outline: 1px dashed skyblue;
+}
+
+#app {
+  font-family: 'Segoe UI', SegoeUI, 'Microsoft YaHei', 微软雅黑, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.width-lg {
+  padding: 0 10%;
+}
+
+@media (max-width: 1440px) {
+  .width-lg {
+    padding: 0 5%;
   }
 }
 </style>
