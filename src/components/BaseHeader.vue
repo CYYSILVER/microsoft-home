@@ -3,7 +3,7 @@
     <div class="navbar__section logo">
       <div class="navbar__logo">
         <a href="/">
-          <img class="navbar__logo--img" src="/Logo.png" alt />
+          <img class="navbar__logo--img" src="Logo.png" alt />
         </a>
       </div>
     </div>
