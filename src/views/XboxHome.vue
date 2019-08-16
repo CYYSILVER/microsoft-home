@@ -27,19 +27,19 @@
       <div class="row justify-content-center logos">
         <div class="col-lg-1 col-sm-3">
           <img src="svg/logo01 (1).svg" alt />
-          <a href="李珂睿/复制 firstone.html">主机</a>
+          <a href="">主机</a>
         </div>
         <div class="col-lg-1 col-sm-3">
           <img src="svg/logo01 (6).svg" alt />
-          <a href="苟佳力/xbox game.html">XBox Game</a>
+          <a href="">XBox Game</a>
         </div>
         <div class="col-lg-1 col-sm-3">
           <img src="svg/logo01 (7).svg" alt />
-          <a href="李珂睿/firstone.html">配件</a>
+          <a href="">配件</a>
         </div>
         <div class="col-lg-1 col-sm-3">
           <img src="svg/logo01 (8).svg" alt />
-          <a href="苟佳力/Xbox Live.html">Xbox Live</a>
+          <a href="">Xbox Live</a>
         </div>
         <div class="col-lg-1 col-sm-3">
           <img src="svg/logo01 (9).svg" alt />
@@ -50,7 +50,7 @@
 
     <div class="gallery">
       <ul class="row">
-        <li class="lt col-xs-12 col-sm-12 col-lg-6 px-0"><img src="/xbox/lt.jpg" alt="" /></li>
+        <li class="lt col-xs-12 col-sm-12 col-lg-6 px-0"><img src="xbox/lt.jpg" alt="" /></li>
         <li class="rt col-xs-12 col-sm-12 col-lg-6 px-0">
           <div class="gallery__center">
             <div>
@@ -65,10 +65,10 @@
               </BaseButton>
             </div>
           </div>
-          <div><img src="/xbox/rt.png" alt="" /></div>
+          <div><img src="xbox/rt.png" alt="" /></div>
         </li>
         <li class="lb col-xs-12 col-sm-12 col-lg-6 px-0">
-          <div><img src="/xbox/lb.jpg" alt="" /></div>
+          <div><img src="xbox/lb.jpg" alt="" /></div>
           <div class="gallery__center">
             <div>
               <h3 style="font-weight: 100; font-size:34px">
@@ -80,11 +80,11 @@
             </div>
           </div>
         </li>
-        <li class="rb col-xs-12 col-sm-12 col-lg-6 px-0"><img src="/xbox/rb.jpg" alt="" /></li>
+        <li class="rb col-xs-12 col-sm-12 col-lg-6 px-0"><img src="xbox/rb.jpg" alt="" /></li>
       </ul>
     </div>
     <div class="row mx-2">
-      <div class="col-lg-7"><img src="/xbox/century.jpg" alt="" style="width: 100%" /></div>
+      <div class="col-lg-7"><img src="xbox/century.jpg" alt="" style="width: 100%" /></div>
       <div class="col-lg-5 d-flex flex-column justify-content-center ">
         <h3 style="font-size: 46px; font-weight: 100;">
           与 Xbox One 一起跨越时代
@@ -99,7 +99,7 @@
     </div>
     <div class="row mx-2">
       <div class="col-lg-6 col-sm-12" style=" position: relative">
-        <img src="/xbox/cold.jpg" alt="" style="object-fit:cover; width: 100%;" />
+        <img src="xbox/cold.jpg" alt="" style="object-fit:cover; width: 100%;" />
         <div class="px-5" style="position: absolute; bottom: 25px;">
           <h3 style="font-size: 46px; font-weight: 100; margin-bottom: 0; color: white">
             这是发生在科罗拉多的一场冷战
@@ -111,7 +111,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-sm-12" style=" position: relative">
-        <img src="/xbox/controller.jpg" alt="" style="object-fit:cover; width: 100%;" />
+        <img src="xbox/controller.jpg" alt="" style="object-fit:cover; width: 100%;" />
         <div class="px-5" style="position: absolute; bottom: 25px;">
           <h3 style="font-size: 46px; font-weight: 100; margin-bottom: 0; color: black">
             经典游戏利器
@@ -157,7 +157,7 @@ export default {
       ],
       items: [
         {
-          src: '/xbox/01.jpg',
+          src: 'xbox/01.jpg',
           h1: '士官长将在光环Infinite中回归',
           right: '85px',
           // top: '2px',
@@ -170,7 +170,7 @@ export default {
           fontColor: 'white'
         },
         {
-          src: '/xbox/02.jpg',
+          src: 'xbox/02.jpg',
           h1: '选择你的伟大之路',
           p: '帝国时代 II：决定版庆祝有史以来最受欢迎的策略游戏之一诞生 20 周年。',
           right: '85px',
@@ -182,7 +182,7 @@ export default {
           fontColor: 'white'
         },
         {
-          src: '/xbox/03.jpg',
+          src: 'xbox/03.jpg',
           h1: '开启史诗般的壮丽旅程',
           p: '在这里欣赏绚丽无边的美景，探索神秘莫测的秘境，发现雄伟壮丽的地标',
           left: '85px',
