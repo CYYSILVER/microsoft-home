@@ -129,7 +129,7 @@ export default {
   },
   methods: {
     src(product) {
-      return `/home/${product.src}`
+      return `home/${product.src}`
     }
   }
 }
